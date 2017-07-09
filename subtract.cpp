@@ -1,3 +1,6 @@
+// Problem description:
+// https://www.interviewbit.com/problems/subtract/
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
