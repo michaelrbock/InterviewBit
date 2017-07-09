@@ -1,9 +1,7 @@
+// Problem description:
+// https://www.interviewbit.com/problems/prettyprint/
+
 vector<vector<int> > Solution::prettyPrint(int A) {
-    // Do not write main() function.
-    // Do not read input, instead use the arguments to the function.
-    // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
-    
     vector<vector<int>> result;
     
     int max_index = (A * 2) - 2;
