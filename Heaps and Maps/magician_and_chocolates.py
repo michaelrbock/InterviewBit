@@ -14,9 +14,7 @@ class Solution:
 
         result = 0
         for i in xrange(A):
-            largest_bag = heapq.heappop(bags) * -1
-            result += largest_bag
-            if i != A - 1:
-                heapq.heappush(bags, (largest_bag / 2) * -1)
+            largest_bag = heapq.heapreplace(bags, ((bags[0] * -1) / 2) * -1)
+            result += (largest_bag * -1)
 
         return result % 1000000007
